@@ -204,19 +204,13 @@ def get_z_values() -> List[float]:
 
 INPUT_CHANNEL_VALUES = [
     'BRIGHTFIELD',
-    'PHASE_CONTRAST',
-    'DIC',
+    'LENSFREE'
 ]
 TARGET_Z_VALUES = ['MAXPROJECT']
 TARGET_CHANNEL_VALUES = [
-    'DAPI_CONFOCAL',
-    'DAPI_WIDEFIELD',
-    'CELLMASK_CONFOCAL',
-    'TUJ1_WIDEFIELD',
-    'NFH_CONFOCAL',
-    'MAP2_CONFOCAL',
-    'ISLET_WIDEFIELD',
-    'DEAD_CONFOCAL',
+    'HOECHST',
+    'PSIVA',
+    'PI'
 ]
 
 # The size of the extracted input patches.
